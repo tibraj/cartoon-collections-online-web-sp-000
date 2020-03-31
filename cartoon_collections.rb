@@ -6,10 +6,10 @@ end
 
 def summon_captain_planet(array)
   array.map do |element|
-    array[0..-2].join("!, ")
-    array[-1].join('!')
     element.capitalize
   end
+  array[0..-2].join("!, ")
+  array[-1].join('!')
 end
 
 def long_planeteer_calls# code an argument here
