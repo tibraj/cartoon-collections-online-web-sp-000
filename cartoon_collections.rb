@@ -19,4 +19,4 @@ def find_the_cheese(array)
   array.detect do |i|
     cheese_types.include?(i)
   end
-end
+end #looks through strings to find and return the first string that is a type of cheese
